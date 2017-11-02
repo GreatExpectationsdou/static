@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  font-size: 0.32rem; }
+
+.slide {
+  width: 100%;
+  height: 100%; }
+
+img {
+  width: 100%; }
+
+.dv {
+  display: none; }
+
+.slide {
+  position: relative; }
+  .slide .ab {
+    width: 0.8rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0.3rem;
+    transform: translateX(-50%); }
+
+.ps2 {
+  position: relative; }
+  .ps2 .txt {
+    position: absolute;
+    top: 1rem;
+    left: 0.5rem; }
+    .ps2 .txt p:nth-child(1) {
+      color: #4C8C8E;
+      font-size: .5rem; }
+      .ps2 .txt p:nth-child(1) span {
+        color: #7ED7B7;
+        font-size: .7rem;
+        font-weight: bolder; }
+    .ps2 .txt p:nth-child(2) {
+      width: 78%;
+      color: #fff;
+      font-size: 0.4rem;
+      margin-top: 0.2rem;
+      line-height: 0.6rem; }
+
+.ps3 {
+  position: relative; }
+  .ps3 .txt1 {
+    position: absolute;
+    top: 1rem;
+    left: 0.5rem; }
+    .ps3 .txt1 p {
+      color: #F7E6F9;
+      font-size: .36rem; }
+      .ps3 .txt1 p span {
+        color: #fff;
+        font-size: .46rem; }
+      .ps3 .txt1 p:nth-child(2) {
+        animation-delay: 0.5s; }
+
+.ps4, .ps5, .ps6, .ps7, .ps9, .ps10 {
+  position: relative; }
+  .ps4 .txt2, .ps5 .txt2, .ps6 .txt2, .ps7 .txt2, .ps9 .txt2, .ps10 .txt2 {
+    position: absolute;
+    left: 0;
+    bottom: 0; }
+
+.ps8 {
+  position: relative; }
+  .ps8 .txt2 {
+    position: absolute;
+    left: 0.5rem;
+    bottom: 0; }
+
+.ps7, .ps8, .ps9, .ps10 {
+  position: relative; }
+  .ps7 p, .ps8 p, .ps9 p, .ps10 p {
+    position: absolute;
+    left: 0.8rem;
+    top: 3.1rem;
+    color: #F7E6F9;
+    font-size: 0.36rem; }
+  .ps7 span, .ps8 span, .ps9 span, .ps10 span {
+    width: 80%;
+    position: absolute;
+    left: 0.8rem;
+    top: 3.6rem;
+    color: #fff;
+    font-size: .46rem;
+    line-height: 0.7rem; }
+
+.ps11, .ps12, .ps13, .ps14 {
+  position: relative; }
+  .ps11 p, .ps12 p, .ps13 p, .ps14 p {
+    position: absolute;
+    left: 0.5rem;
+    top: 1rem;
+    font-size: 0.7rem;
+    color: #5BCAC4;
+    font-weight: bolder; }
+
+.ps15 {
+  position: relative; }
+  .ps15 > .txt2 {
+    position: absolute;
+    top: 40%;
+    left: 0; }
+
+.ps16 {
+  position: relative; }
+  .ps16 .txt3 {
+    width: 98%;
+    position: absolute;
+    left: 0.3rem;
+    top: 6rem; }
+    .ps16 .txt3 img {
+      width: 30%;
+      height: auto;
+      margin-top: 0.2rem; }
+
+.ps17 {
+  position: relative; }
+  .ps17 p {
+    position: absolute;
+    top: 1rem;
+    left: 0.5rem;
+    width: 85%;
+    font-size: .5rem;
+    color: #fff;
+    line-height: 0.7rem; }
+    .ps17 p span {
+      color: #F6B63A;
+      font-size: .65rem; }
+
+.ps18 {
+  position: relative; }
+  .ps18 p {
+    position: absolute;
+    top: 5rem;
+    left: 0.5rem;
+    width: 85%;
+    color: #fff;
+    font-size: 0.36rem;
+    line-height: 0.6rem; }
+
+.ps19 {
+  position: relative; }
+  .ps19 > p {
+    position: absolute;
+    top: 1.5rem;
+    left: 0.7rem;
+    color: #fff;
+    font-size: .4rem; }
+    .ps19 > p span {
+      color: #5BCAC4;
+      font-size: .7rem;
+      font-weight: bolder; }
+  .ps19 .txt4 {
+    position: absolute;
+    top: 3rem;
+    left: 0.5rem;
+    color: #fff;
+    font-size: .38rem;
+    width: 85%;
+    line-height: 0.5rem; }
+    .ps19 .txt4 span {
+      padding-top: 0.2rem;
+      display: block; }
+
+.ps20 {
+  position: relative; }
+  .ps20 .txt2 {
+    position: absolute;
+    top: 3rem;
+    left: 0; }
+
+.ps21 {
+  position: relative; }
+  .ps21 p {
+    position: absolute;
+    top: 3.5rem;
+    line-height: 0.6rem;
+    width: 85%;
+    left: 0.5rem;
+    color: #fff;
+    font-size: 0.38rem; }
+
+/*# sourceMappingURL=style.css.map */
